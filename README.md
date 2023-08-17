@@ -78,3 +78,10 @@
 ![Url Shortener](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/554b9a03-6d9c-48eb-897a-552cfa796134)
 
 &nbsp;
+
+### 11. And my diagram 📊
+
+![Copy of Deployment1_1 drawio](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/832257c1-f920-4303-b517-455f8875122c)
+
+
+&nbsp;
