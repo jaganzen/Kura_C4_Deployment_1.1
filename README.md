@@ -53,10 +53,19 @@
 
    After we set up our EC2 instance we should have an application that launches, but we have come across an error. In order to mitigate the issue, I checked the Last 100 log entries. The error we received was “ModuleNotFoundError: No module named ‘application’.
 
-   Our next step will then be to go back into the Zip file we originally uploaded, extract it, and select the “app.py” folder, and change the directory name to “application.py”. Then we will rezip the contents of our folder into a new Zip file, and reupload our Zip file into AWS.
+![502 Error](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/9652d751-40f5-4ef6-b8e6-97d19916ab83)
+
+
+![Error Log](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/0cf17eca-df9a-4b7a-8317-615f59ec2eac)
+
+   Our next step will then be to go back into the Zip file we originally uploaded, extract it, and select the appropriate "module", and correct the issue. Then we will rezip the contents of our folder into a new Zip file, and reupload our Zip file into AWS.
 
 &nbsp;
 
 ### 9. Launch URL Shortener
 
-   And our url_shortener has launched.
+   Success! And our url_shortener has launched.
+
+&nbsp;
+
+![Success](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/5c146104-7465-4cf1-a316-bb20f74f32b8)
