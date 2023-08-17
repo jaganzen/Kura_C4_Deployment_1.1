@@ -29,6 +29,8 @@
 
    The fourth step is to log into our Jenkins Server to build, test and deploy our build. In order to set up the build, we will create a pipeline using our Github credentials with Jenkins Credentials Provider verification with the proper authentication using our Github username and Personal Access Token as our password.
 
+![Deployment](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/f471c912-f731-4bd9-94de-a4edb3bffd5e)
+
 &nbsp;
 
 ### 5. Prepare Local File for Elastic Beanstalk
@@ -53,10 +55,12 @@
 
    After we set up our EC2 instance we should have an application that launches, but we have come across an error. In order to mitigate the issue, I checked the Last 100 log entries. The error we received was “ModuleNotFoundError: No module named ‘application’.
 
+![Degraded](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/92eda675-0602-4891-a9bd-8e96d845bccc)
+
 ![502 Error](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/9652d751-40f5-4ef6-b8e6-97d19916ab83)
 
+![Error Log](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/79d08f09-de31-4561-81e0-268648a0ab20)
 
-![Error Log](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/0cf17eca-df9a-4b7a-8317-615f59ec2eac)
 
    Our next step will then be to go back into the Zip file we originally uploaded, extract it, and select the appropriate "module", and correct the issue. Then we will rezip the contents of our folder into a new Zip file, and reupload our Zip file into AWS.
 
