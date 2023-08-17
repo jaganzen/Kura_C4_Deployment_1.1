@@ -73,3 +73,12 @@
 &nbsp;
 
 ![Success](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/5c146104-7465-4cf1-a316-bb20f74f32b8)
+
+### 9. And now we have access to our application!
+
+   And our application is now live 🥳
+
+![Url Shortner](https://github.com/jaganzen/Kura_C4_Deployment_1.1/assets/101806502/554b9a03-6d9c-48eb-897a-552cfa796134)
+
+
+&nbsp;
